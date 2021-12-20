@@ -18,9 +18,14 @@ public class StoreData {
 
 	        CaseDescription p=new CaseDescription();
 	        p.setCaseID(0);
-	        p.setTitle("NewCase");
-	        p.setDesc("This case needs money");
+	        p.setTitle("Household Expenses");
+	        p.setDesc("This case needs money for household expenses"); 
 	        p.setTarget(10000);
+	        p.setCaseID(1);
+	        p.setTitle("Financial Aid");
+	        p.setDesc("Mohammad Bakhsh needs money for meeting his children's daily expenses"); 
+	        p.setTarget(4000);
+	        
 	        session.save(p);
 	        
 	        
